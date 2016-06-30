@@ -1,0 +1,24 @@
+{
+  "name": "valve",
+  "authors": [
+    "Milashkasiya <milashkasiya@gmail.com>"
+  ],
+  "description": "Main Page",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "2.2.4"
+  },
+  "devDependencies": {
+    "html5shiv": "^3.7.3"
+  }
+}

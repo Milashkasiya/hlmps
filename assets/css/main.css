@@ -1,0 +1,80 @@
+html, body
+{
+    height: 100%;
+}
+
+body
+{
+    background: #000 url('../images/800_1_a_loading.jpg') center/100% 100% no-repeat fixed;
+    margin: 0;
+    padding: 0;
+}
+
+nav, aside
+{
+    position: absolute;
+}
+
+nav
+{
+    left: 33px;
+    bottom: 14px;
+}
+aside
+{
+    right: 33px;
+    bottom: 36px;
+}
+nav ul
+{
+    padding: 0;
+}
+nav ul li
+{
+    list-style: none;
+}
+nav a, aside a
+{
+    text-decoration: none;
+}
+aside a
+{
+    display: block;
+}
+aside a:last-child
+{
+    margin-top: 8px;
+}
+aside figure
+{
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/steam_menu.png');
+    width: 122px;
+    height: 32px;
+}
+aside figure:hover
+{
+    background-image: url('../images/steam_menu_mouseover.png');
+}
+nav ul li:not( :last-child ) a, aside a
+{
+    color: #C8C8C8;
+    font: 15px/190% Verdana;
+    letter-spacing: 1px;
+}
+nav ul li:last-child a
+{
+    color: #F4750C;
+    font: 21px/60% "Trebuchet MS";
+    text-transform: uppercase;
+    letter-spacing: 11px;
+}
+nav ul li:nth-child( 2n + 2 )
+{
+    margin-bottom: 28px;
+}
+nav ul li a:hover, aside a:hover
+{
+    color: #FFF;
+}
